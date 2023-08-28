@@ -90,3 +90,5 @@ selectionButtons.forEach(selectionButton => {
         makeSelection(playerSelection);
     })
 })
+
+document.addEventListener('dblclick', e => e.preventDefault)
