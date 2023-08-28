@@ -11,23 +11,22 @@
 </head>
 
 <body>
+    <h1>Rock Paper Scissors</h1>
     <div class="selections">
-        <button class="selection">✊</button>
-        <button class="selection">🖐️</button>
-        <button class="selection">✌️</button>
+        <button class="selection" data-selection="rock">✊</button>
+        <button class="selection" data-selection="paper">🖐️</button>
+        <button class="selection" data-selection="scissors">✌️</button>
     </div>
 
     <div class="results">
         <div>
-            <p class="result-score">0</p>
+            <p class="result-score" data-player-score>0</p>
             <p>Player</p>
         </div>
-        <div>
-            <p class="result-score">0</p>
+        <div data-final-column>
+            <p class="result-score" data-computer-score>0</p>
             <p>Computer</p>
         </div>
-        <div class="result-selection player-selection winner">✊</div>
-        <div class="result-selection computer-selection">✌️</div>
     </div>
 
 
